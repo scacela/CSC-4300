@@ -1,0 +1,114 @@
+
+body {
+font-family: helvetica, arial, sans-serif;
+font-size: 14px;
+line-height: 1.428571429;
+background-color: #333;
+margin: 15px;
+}
+
+
+/* table spacing */
+
+table {
+  table-layout: inherit;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #c5c5c5;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+/*
+thead th:nth-child(4) {
+  width: 35%;
+}
+*/
+th, td {
+  padding: 20px;
+}
+
+
+/* table typography */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th, tfoot td {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-size: 30px;
+}
+
+/* table graphics and colors */
+
+thead, tfoot {
+  background: url(images/pool.jpg);
+  color: #c5c5c5;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 3px solid #c5c5c5;
+}
+
+/* table zebra-striping */
+
+tbody tr:nth-child(odd) {
+  background-color: #2e549b; /* darker */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #7c90b5; /* lighter */
+}
+
+tbody tr {
+  background-image: url(images/noise.png);
+}
+
+table {
+  position: relative;
+  top: 20px;
+}
+
+/* styling the caption (table) */
+
+caption {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: top;
+  color: #73d0e2;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  letter-spacing: 1px;
+}

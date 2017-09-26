@@ -1,0 +1,94 @@
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  margin: 10px 0px;
+  background-color: black;
+}
+
+/* table serves as the blue rectangle */
+table {
+  text-align: left;
+  width: 100%;
+  height: 88px;
+  text-align: left;
+  /* color of text in the table */
+  color: white;
+  background-color: #163463;
+  border: 4px solid #163463;
+}
+
+/* header cell */
+th {
+  text-indent: 8px;
+  font-size: 31px;
+  position: relative;
+  top: 5.2px;
+}
+
+/* standard cell */
+td {
+  text-indent: 8px;
+  font-size: 18.6px;
+  font-weight: bold;
+  vertical-align: top;
+  position: relative;
+  bottom: 2.3px;
+}
+
+/* reads: "Assignment 1" */
+h1 {
+  top: 314.89px;
+  left: 3px;
+  font-size: 23.3px;
+}
+
+#content {
+  background-color: white;
+  padding: 4px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* see index.js */
+#hworld0 {
+  position: relative;
+  font-size: 15.5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #cccccc;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#hworld1 {
+  font-weight: bold;
+}
+
+li {
+  font-size: 15px;
+}
+
+/* span id */
+.bulletDistance {
+  position: relative;
+  left: -4px;
+  margin: 2.5px;
+}
+
+#whiteRect {
+  width: 100%;
+	min-height: 344px;
+  position: absolute;
+  top: 228px;
+  left: 0px;
+	background: white;
+}
