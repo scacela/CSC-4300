@@ -1,5 +1,5 @@
 //var vol = 0.01;
-var numTracks = 7;
+var numTracks = 8;
 //var count;
 /*
 function lowVolume() {
